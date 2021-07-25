@@ -1,0 +1,119 @@
+<html>
+
+	<head>
+
+		<title>Contact Us</title>
+		<style>
+        #topbar{
+            background-color:lightblue;
+            padding:15px;
+            color:white;
+            text-align:center;
+            margin-bottom:0;
+            position:sticky;
+            top:0;
+        }
+        .menu-item{
+            display:inline;
+            padding:12px 16px;
+            font-size:24px;
+            color:white;
+        }
+        .h1-des{
+          font-size:40px;   
+          padding-top:10px; 
+          padding-bottom:10px;
+          color:blue;
+          text-decoration:underline;
+          text-align:center;
+        }
+        .register-item{
+            text-align:center;
+            border:2px solid blue;
+            margin-top:20px;
+            margin-bottom:10px;
+            margin-left:200px;
+            margin-right:200px;
+        }    
+        #input-fields{
+            margin-top:0px;
+            margin-bottom:40px;
+        }
+        .input-label{
+            margin-bottom:0px;
+            padding-bottom:0px;
+            font-size:24px;
+        }
+        #input-box{
+            width:300px;
+            height:30px;
+        }
+        .input-item{
+            font-size:22px;
+        }
+        #submit-al{
+            width:100px;
+            text-align:center;
+            height:40px;
+            margin-bottom:20px;
+            border:2px solid black;
+            border-radius:4px;
+        }
+         #footer-desc{
+             background-color:lightgrey;
+             width:100%;
+             height:60px;
+         }
+        </style>
+
+	</head>
+
+	<body style="margin:0; background-image: url('C:/Users/sai/Desktop/HTML-learning/Final-Project/contact.jpg');">
+     <ul id="topbar">
+        <li class="menu-item"><a href="C:/Users/sai/Desktop/HTML-learning/Final-Project/index.html">HomePage</a></li>
+         <li class="menu-item"><a href="C:/Users/sai/Desktop/HTML-learning/Final-Project/Trips.html">Trips</a></li>
+        <li class="menu-item"><a href="C:/Users/sai/Desktop/HTML-learning/Final-Project/about.html">About</a></li>
+        <li class="menu-item"><a href="C:/Users/sai/Desktop/HTML-learning/Final-Project/contact.html">Contact</a></li>
+       </ul>  
+
+     <form class="register-item">
+    
+       <h1 class="h1-des" >Contact Us</h1>
+         <p class="input-label">Full-Name:</p> 
+        <div id="input-fields"> 
+          <input id="input-box" type="text" placeholder="fullname" autoFocus>
+          <br>
+        </div>
+
+        <p class="input-label">E-mail:</p> 
+        <div id="input-fields">
+           
+          <input  id="input-box" type="email" placeholder="Email">
+          <br>
+        </div>
+ 
+        <p class="input-label">Address:</p> 
+        <div id="input-fields">
+           
+          <textarea name="answer">Address</textarea>
+          <br>
+        </div>
+ 
+        <p class="input-label">Gender:</p>
+        <div id="input-fields">
+          
+          <input  class="input-item" type="radio" name="male" value="male">Male</input>
+          <input class="input-item" type="radio" name="feale" value="female">Female</input>
+          <input class="input-item" type="radio" name="other" value="other">Other</input>
+        </div>
+
+        <input id="submit-al" type="submit" value="submit">
+
+     </form>
+     <footer id="footer-desc">
+        <p>Copyright@2021</p>
+      </footer>    
+
+    </body>
+
+</html>
